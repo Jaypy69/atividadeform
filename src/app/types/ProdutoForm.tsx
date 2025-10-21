@@ -1,6 +1,12 @@
 export interface ProdutoForm {
+    id?:Number;
     nome: string;
     descricao:string;
-    preco: string | number;
-    url: string;
+    precoCusto: string | number;
+    precoVenda: number | string;
+    estoqueMinimo: number | string;
+    marca: string;
+    modelo: string;
+    anoFabricacao: string;
+    compatibilidade: string;
 }

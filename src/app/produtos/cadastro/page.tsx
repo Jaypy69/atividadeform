@@ -1,6 +1,6 @@
 'use client'
 import FormularioProduto from "@/app/components/FormularioProduto";
-import NavBar from "@/app/components/navbar";
+import NavBar from "@/app/components/Navbar";
 import { withAuth } from "@/app/components/withAuth";
 
 function PaginaCadastro() {

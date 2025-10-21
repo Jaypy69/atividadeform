@@ -1,7 +1,12 @@
 export interface Produto {
     id: number;
     nome: string;
-    preco: number;
     descricao: string;
-    url: string;
+    precoCusto: number;
+    precoVenda: number;
+    estoqueMinimo: number;
+    marca: string;
+    modelo: string;
+    anodeFabricacao: number;
+    compatibilidade: string;
 }
